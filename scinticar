@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scinticar - Nettoyage Auto Féminin à Vallauris</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fff8f9;
+      color: #333;
+    }
+    header {
+      background-color: #ffe4ec;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #b3005e;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #fddde6;
+      padding: 10px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #b3005e;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services, .gallery, .contact {
+      background-color: #fff;
+      margin: 20px 0;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #ffe4ec;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #555;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #b3005e;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+      margin: 10px;
+    }
+    .form-contact input, .form-contact textarea {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .form-contact button {
+      background-color: #b3005e;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Scinticar</h1>
+    <p>Le nettoyage auto avec une touche féminine à Vallauris</p>
+  </header>
+  <nav>
+    <a href="#apropos">À propos</a>
+    <a href="#services">Services</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+  <section id="apropos">
+    <h2>À propos</h2>
+    <p>Bienvenue ! Je suis une femme passionnée par le soin automobile et j’ai repris l’activité Scinticar pour offrir un service unique et soigné. Basée à Vallauris, je propose un nettoyage professionnel et minutieux, à domicile ou sur votre lieu de travail.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Nos services</h2>
+    <ul>
+      <li>Nettoyage extérieur</li>
+      <li>Nettoyage intérieur complet</li>
+      <li>Pressing sièges et tapis</li>
+      <li>Rénovation plastiques et jantes</li>
+      <li>Déplacement à domicile</li>
+    </ul>
+    <a href="#contact" class="btn">Demander un devis</a>
+  </section>
+
+  <section id="galerie" class="gallery">
+    <h2>Galerie Avant / Après</h2>
+    <div style="display:flex; flex-wrap: wrap; justify-content: center;">
+      <img src="https://via.placeholder.com/300x200" alt="Avant nettoyage">
+      <img src="https://via.placeholder.com/300x200" alt="Après nettoyage">
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Zone desservie : Vallauris, Antibes, Cannes, Golfe-Juan</p>
+    <p>Téléphone : 06 00 00 00 00</p>
+    <p>Email : contact@scinticar.fr</p>
+    <p>Instagram : <a href="https://instagram.com">@scinticar</a></p>
+    <form class="form-contact">
+      <input type="text" placeholder="Votre nom" required>
+      <input type="email" placeholder="Votre email" required>
+      <textarea rows="5" placeholder="Votre message"></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Scinticar. Tous droits réservés.
+  </footer>
+</body>
+</html>
